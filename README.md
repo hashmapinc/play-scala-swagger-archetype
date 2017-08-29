@@ -28,7 +28,8 @@ Maven arcehtype to generate skeleton of a Play+Scala project integrated with Swa
 2. Unzip it on server
 3. cd to unzipped directory
 4. check if start script has execute mode, if not give it
-5. To start as a daemon process execute following command
+5. Set the conf file appropriate for server e.g. for production environment set ststem variable as ``export ENV=PROD`` Note: This environment if not set will load application.conf if set there should be file with name like prod.conf 
+6. To start as a daemon process execute following command
 
         nohup ./start -Dhttp.port=<your_app_port> -Dpidfile.path=/dev/null &
 
