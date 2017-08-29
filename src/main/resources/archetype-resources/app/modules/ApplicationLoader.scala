@@ -1,4 +1,4 @@
-package module
+package modules
 
 import com.typesafe.config.ConfigFactory
 import play.api.ApplicationLoader.Context

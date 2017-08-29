@@ -16,7 +16,7 @@
       </includes>
     </fileSet>
     <fileSet encoding="UTF-8">
-      <directory>app/module</directory>
+      <directory>app/modules</directory>
       <includes>
         <include>**/*.scala</include>
       </includes>
