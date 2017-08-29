@@ -1,0 +1,9 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+
+# Swagger endpoint
+GET     /docs/              controllers.Application.redirectDocs
+GET     /swagger.json       controllers.ApiHelpController.getResources
+GET     /webjars/*file      controllers.WebJarAssets.at(file)

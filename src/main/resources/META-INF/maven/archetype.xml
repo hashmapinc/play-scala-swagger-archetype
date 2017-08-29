@@ -1,0 +1,8 @@
+<archetype>
+    <id>play-scala-swagger-archetype</id>
+    <sources>
+        <source>app/controllers/Application.scala</source>
+        <source>app/filters/PreflightFilter.scala</source>
+        <source>app/module/ApplicationLoader.scala</source>
+    </sources>
+</archetype>
